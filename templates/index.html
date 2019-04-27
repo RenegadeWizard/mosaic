@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<title>Welcome</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+<body>
+    <form method="POST" action="/"> 
+        Losowo:
+        <input name="los" type="checkbox"/> 
+        <br/>
+        Rozdzielczosc:
+        <input type="text" class="res" name="resX"/> x <input type="text" class="res" name="resY"/> <br/>
+        <br/> 
+        Zdjęcia:<br/>
+        <input class="url" type="text" name="url1"/> <br/> <input class="url" type="text" name="url2"/> <br/> <input class="url" type="text" name="url3"/> <br/> <input class="url" type="text" name="url4"/> <br/> <input class="url" type="text" name="url5"/> <br/> <input class="url" type="text" name="url6"/> <br/> <input class="url" type="text" name="url7"/> <br/> <input class="url" type="text" name="url8"/> <br/>
+        <input id="confirm" type="submit" value="Zatwierdź"/>
+    </form>
+</body>
